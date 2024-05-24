@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "ws": "^8.17.0"
+  },
+  "scripts": {
+    "ws": "node server.js"
+}
+}
