@@ -1,7 +1,8 @@
 const WebSocket = require('ws');
 const { v4: uuidv4 } = require('uuid');
 
-const wss = new WebSocket.Server({ host: "192.168.254.106", port: 8000 });
+// const wss = new WebSocket.Server({ host: "192.168.254.106", port: 8000 });
+const wss = new WebSocket.Server({ port: 8000 });
 
 const clients = new Map();
 
